@@ -1,0 +1,231 @@
+14:58:01 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27372	     56	   2096	  29524	   7354	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+14:58:17 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27372	     56	   2096	  29524	   7354	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:01:12 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:01:18 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:01:23 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:05:45 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:05:55 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:07:42 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:13:25 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:20:47 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27356	     52	   2100	  29508	   7344	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:21:06 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27356	     52	   2100	  29508	   7344	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:34:33 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:34:53 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:35:08 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:37:28 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:37:35 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:38:50 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:39:18 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-size   Labo5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+15:46:46 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:50:09 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27396	     52	   2100	  29548	   736c	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 
+15:57:04 **** Incremental Build of configuration Debug for project Labo5 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labo5.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\augus\STM32CubeIDE\workspace_1.13.2\Labo5\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labo5.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labo5.elf
+ 
+arm-none-eabi-size   Labo5.elf 
+arm-none-eabi-objdump -h -S  Labo5.elf  > "Labo5.list"
+   text	   data	    bss	    dec	    hex	filename
+  27356	     52	   2100	  29508	   7344	Labo5.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labo5.list
+ 

@@ -1,0 +1,5 @@
+../Core/Src/calc_sinusM.c:37:6:hall_scale	16	static
+../Core/Src/calc_sinusM.c:55:6:calc_hallminmax	16	static
+../Core/Src/calc_sinusM.c:74:6:calc_betas	16	static
+../Core/Src/calc_sinusM.c:85:6:calc_sinusM	40	static
+../Core/Src/calc_sinusM.c:103:6:calc_params_sinusM	16	static
